@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Banks\Gazprombank.cs" />
+    <Compile Include="Banks\IBankService.cs" />
+    <Compile Include="Banks\Sberbank.cs" />
+    <Compile Include="Domain\Employee.cs" />
+    <Compile Include="Presenter\EmployeePresenter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VIew\ConsoleView.cs" />
+    <Compile Include="VIew\IView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
