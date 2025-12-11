@@ -46,7 +46,13 @@
     <Compile Include="Banks\Gazprombank.cs" />
     <Compile Include="Banks\IBankService.cs" />
     <Compile Include="Banks\Sberbank.cs" />
+    <Compile Include="Decorators\AcademicDegree.cs" />
+    <Compile Include="Decorators\EmployeeDecorator.cs" />
+    <Compile Include="Decorators\IntermediateEnglishCertificate.cs" />
     <Compile Include="Domain\Employee.cs" />
+    <Compile Include="Domain\Engineer.cs" />
+    <Compile Include="Domain\Manager.cs" />
+    <Compile Include="Domain\Scientist.cs" />
     <Compile Include="Presenter\EmployeePresenter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
